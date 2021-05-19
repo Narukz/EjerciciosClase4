@@ -1,0 +1,20 @@
+Accion programaParsegundo es;
+    Ambiente
+        cont, tope: entero
+    Algoritmo
+        Escribir("Ingrese un tope mayor a 51")
+        Leer(tope)
+        Si(tope<51)entonces
+            para(cont=51;cont=cont-1;cont==tope)
+                si(cont mod 2 == 0)entonces
+                    Escribir("El numero ",cont," es par")
+                Fin_Si
+        sino
+            para(cont=51;cont=cont+1;cont<=tope)
+                si(cont mod 2 == 0)entonces
+                    Escribir("El numero ",cont," es par")
+                Fin_si
+            Fin_Para
+        Fin_Si
+    Fin_Algoritmo
+Fin_Accion

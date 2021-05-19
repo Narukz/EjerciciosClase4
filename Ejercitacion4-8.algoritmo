@@ -1,0 +1,13 @@
+Accion ProgramaSuma es
+    Ambiente
+        cont, suma : entero
+    Algoritmo
+        cont = 1
+        suma = 0
+        mientras(cont<=100)entonces
+            suma = suma + cont
+            cont = cont + 1
+        Fin_mientras
+        Escribir("La suma de los numeros es: ",suma)
+    Fin_algoritmo
+Fin_accion

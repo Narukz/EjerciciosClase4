@@ -1,0 +1,15 @@
+Accion ProgramaMultiplos es;
+    Ambiente
+        cont, suma : entero
+    Algoritmo
+        cont=0
+        suma=0
+        mientras(cont<=100)hacer
+            Si(cont mod 3 == 0)entonces
+                suma=suma+cont
+            fin_Si
+            cont=cont+1
+        Fin_mientras
+        Escribir("La suma de los numeros multiplos de 3 es: ",suma)
+    Fin_Algoritmo
+Fin_Accion

@@ -1,0 +1,13 @@
+Accion programaPar es;
+    Ambiente
+        cont, tope: entero
+    Algoritmo
+        Escribir("Ingrese tope")
+        Leer(tope)
+        para(cont=1;cont=cont+1;cont<=tope)
+            si(cont mod 2 == 0)entonces
+                Escribir("El numero ",cont," es par")
+            Fin_si
+        Fin_Para
+    Fin_Algoritmo
+Fin_Accion
